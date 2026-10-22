@@ -1,9 +1,9 @@
 {
   "nodes": [
-    {"id": "me", "type": "blackhole", "x": 0, "y": 0, "size": 220, "image": "art/blackhole.png", "title": "Me", "text": "The center of my galaxy. Everything here orbits how I use the internet."},
+    {"id": "me", "type": "blackhole", "x": 0, "y": 0, "size": 220, "image": "art/blackhole.png", "title": "Me!", "text": "The black hole with a cameo of one of the characters I have! The Furry nebula is also another one of my characters, although way less noticable. Everything that orbits me is how I use the internet and how it forms the galaxy around me. In my eyes, a galaxy is a garden on a stellar scale!"},
     {"id": "furry", "type": "nebula", "x": -250, "y": 340, "radius": 120, "image": "art/nebula-furry.png", "color": "#ff9a5f", "color2": "#b07cff", "title": "Furries", "text": "The furry community is one of the biggest parts of my life, I would not be where I am today if not for them. ", "photo": "photos/furryRegion.jpg", "caption": "This one is a picture of me taken by one of my friends while we were camping!"},
     {"id": "furry-1", "type": "star", "parent": "furry", "dx": -45, "dy": -30, "title": "SoAp at Virginia Tech", "text": "SoAp stands for Society of Anthropomorphics. It is the furry club here at Virginia Tech. I interact with them on a daily basis.", "photo": "photos/soapPicture.jpg", "caption": "Another picture from camping, this one is me with some of the SoAp members."},
-    {"id": "furry-2", "type": "star", "parent": "furry", "dx": 40, "dy": 25, "title": "The Wider Online Community", "text": "A lot of my friends that I have made in digital spaces come from these online communities."},
+    {"id": "furry-2", "type": "star", "parent": "furry", "dx": 40, "dy": 25, "title": "The Wider Online Furry Community", "text": "A lot of my friends that I have made in digital spaces come from these online communities."},
     {"id": "furry-3", "type": "planet", "parent": "furry", "dx": -10, "dy": 55, "color": "#ffb37c", "title": "Physical Connections To Digital Spaces", "text": "Going to conventions have lead me to make connections that I still keep up to on this day."},
     {"id": "social", "type": "nebula", "x": -330, "y": -310, "radius": 110, "color": "#ff5fa2", "color2": "#8a5cff", "title": "Social Media Platforms", "text": "Where I browse when I am not focused on anything in particular."},
     {"id": "social-1", "type": "star", "parent": "social", "dx": -40, "dy": -25, "title": "Instagram", "text": "Placeholder: a smaller idea."},
@@ -19,12 +19,13 @@
     {"id": "gaming", "type": "cluster", "x": 60, "y": -530, "radius": 90, "color": "#ffd27c", "title": "Gaming", "text": "Geometry Dash, Stellaris, and other games that I play"},
     {"id": "gaming-1", "type": "star", "parent": "gaming", "dx": -30, "dy": -25, "title": "Geometry Dash", "text": "This game I have played since I was a child, I have gotten decent at it and I still play it often to this day.", "photo": "photos/geometryDash.png", "caption": "Screenshot of my anguish and suffering."},
     {"id": "gaming-2", "type": "star", "parent": "gaming", "dx": 35, "dy": 15, "title": "Stellaris", "text": "I adore this game. It is a space themed grand strategy game where you explore systems, expand your spacefaring empire throughout galaxy, and engage in diplomacy (or war) with out empires in the galaxy. You can see a lot of inspiration in this website from that game!"},
-    {"id": "gaming-3", "type": "planet", "parent": "gaming", "dx": -5, "dy": 40, "color": "#ffcf8a", "title": "Gaming Communities", "text": "I love talking to other people about acheivements or fun things that happen in games that we share in common.", "photo": "photos/stellaris.png", "caption": "A humorous Stellaris photo I shared with a friend of mine, my three ships were beating this entire enemy fleet by simple run and gun tactics."}
+    {"id": "gaming-3", "type": "planet", "parent": "gaming", "dx": -5, "dy": 40, "color": "#ffcf8a", "title": "Gaming Communities", "text": "I love talking to other people about acheivements or fun things that happen in games that we share in common.", "photo": "photos/stellaris.png", "caption": "A humorous Stellaris photo I shared with a friend of mine, my five ships were beating this entire enemy fleet by simple run and gun tactics."}
   ],
   "links": [
     {"from": "furry-1", "to": "social-4", "why": "This is how I first talked to most of the people I know at the club here in Virginia Tech! It is also how I talk to most of the people in the club on most days that we do not have an event or a meeting."},
     {"from": "furry-3", "to": "social-1", "why": "A lot of people whom I have met at conventions I keep up with usually on Instagram, whether it is me directly chatting with them or me viewing their content that they post."},
     {"from": "furry-2", "to": "gaming", "why": "So many of my friends I have made I have made because of common interests throughout the games that we have played. Although not listed on here because I have not played in a long while, a big game for my digital connections was the Ori series!"},
-    {"from": "sports-1", "to": "social-2", "why": "I get a lot of my hockey news and fan blurb from Reddit."}
+    {"from": "sports-1", "to": "social-2", "why": "I get a lot of my hockey news and fan blurb from Reddit."},
+    {"from": "gaming-3", "to": "social-4", "why": "This is the main way I interact with people from these separate gaming communities."}
   ]
 }
