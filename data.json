@@ -1,0 +1,30 @@
+{
+  "nodes": [
+    {"id": "me", "type": "blackhole", "x": 0, "y": 0, "size": 220, "image": "art/blackhole.png", "title": "Me", "text": "The center of my galaxy. Everything here orbits how I use the internet."},
+    {"id": "furry", "type": "nebula", "x": -250, "y": 340, "radius": 120, "image": "art/nebula-furry.png", "color": "#ff9a5f", "color2": "#b07cff", "title": "Furries", "text": "The furry community is one of the biggest parts of my life, I would not be where I am today if not for them. ", "photo": "photos/furryRegion.jpg", "caption": "This one is a picture of me taken by one of my friends while we were camping!"},
+    {"id": "furry-1", "type": "star", "parent": "furry", "dx": -45, "dy": -30, "title": "SoAp at Virginia Tech", "text": "SoAp stands for Society of Anthropomorphics. It is the furry club here at Virginia Tech. I interact with them on a daily basis.", "photo": "photos/soapPicture.jpg", "caption": "Another picture from camping, this one is me with some of the SoAp members."},
+    {"id": "furry-2", "type": "star", "parent": "furry", "dx": 40, "dy": 25, "title": "The Wider Online Community", "text": "A lot of my friends that I have made in digital spaces come from these online communities."},
+    {"id": "furry-3", "type": "planet", "parent": "furry", "dx": -10, "dy": 55, "color": "#ffb37c", "title": "Physical Connections To Digital Spaces", "text": "Going to conventions have lead me to make connections that I still keep up to on this day."},
+    {"id": "social", "type": "nebula", "x": -330, "y": -310, "radius": 110, "color": "#ff5fa2", "color2": "#8a5cff", "title": "Social Media Platforms", "text": "Where I browse when I am not focused on anything in particular."},
+    {"id": "social-1", "type": "star", "parent": "social", "dx": -40, "dy": -25, "title": "Instagram", "text": "Placeholder: a smaller idea."},
+    {"id": "social-2", "type": "planet", "parent": "social", "dx": 35, "dy": 30, "title": "Reddit", "text": "Placeholder: another smaller idea."},
+    {"id": "social-3", "type": "star", "parent": "social", "dx": -15, "dy": 10, "title": "YouTube", "text": "Placeholder: another smaller idea."},
+    {"id": "social-4", "type": "star", "parent": "social", "dx": 20, "dy": -50, "title": "Discord", "text": "Placeholder: another smaller idea."},
+    {"id": "astronomy", "type": "cluster", "x": 480, "y": -90, "radius": 90, "color": "#9fc4ff", "title": "Astronomy", "text": "My online and phsyical escape into the stars."},
+    {"id": "astronomy-1", "type": "star", "parent": "astronomy", "dx": -30, "dy": -20, "title": "Blogs and posts", "text": "Placeholder: a smaller idea.", "photo": "photos/example.jpg", "caption": "Placeholder: a caption for the photo."},
+    {"id": "astronomy-2", "type": "planet", "parent": "astronomy", "dx": 30, "dy": 30, "color": "#7cc8ff", "title": "Astronomy Club of Virginia Tech", "text": "Placeholder: another smaller idea."},
+    {"id": "sports", "type": "nebula", "x": 240, "y": 460, "radius": 100, "color": "#3fd6c0", "color2": "#4f7cff", "title": "Sports", "text": "The worst days of my life but the best times."},
+    {"id": "sports-1", "type": "star", "parent": "sports", "dx": 0, "dy": -35, "title": "The Edmonton Oilers", "text": "Born in Edmonton, Alberta, Canada, I have always lived in a family that watched hockey, especially my dad. We always watched Edmonton Oilers games and I still follow them along and watch them for most of the games they play."},
+    {"id": "sports-2", "type": "star", "parent": "sports", "dx": -35, "dy": 30, "title": "Other Teams I Follow and Why", "text": "Placeholder: another smaller idea."},
+    {"id": "gaming", "type": "cluster", "x": 60, "y": -530, "radius": 90, "color": "#ffd27c", "title": "Gaming", "text": "Geometry Dash, Stellaris, Eastside Hockey Manager, and other games that I play"},
+    {"id": "gaming-1", "type": "star", "parent": "gaming", "dx": -30, "dy": -25, "title": "Geometry Dash", "text": "This game I have played since I was a child, I have gotten decent at it and I still play it often to this day.", "photo": "photos/geometryDash.png", "caption": "Screenshot of my anguish and suffering."},
+    {"id": "gaming-2", "type": "star", "parent": "gaming", "dx": 35, "dy": 15, "title": "Stellaris", "text": "Placeholder: another smaller idea."},
+    {"id": "gaming-3", "type": "planet", "parent": "gaming", "dx": -5, "dy": 40, "color": "#ffcf8a", "title": "Eastside Hockey Manager", "text": "Placeholder: another smaller idea."}
+  ],
+  "links": [
+    {"from": "furry-1", "to": "social-4", "why": "This is how I first talked to most of the people I know at the club here in Virginia Tech! It is also how I talk to most of the people in the club on most days that we do not have an event or a meeting."},
+    {"from": "furry-3", "to": "social-1", "why": "A lot of people whom I have met at conventions I keep up with usually on Instagram, whether it is me directly chatting with them or me viewing their content that they post."},
+    {"from": "furry-2", "to": "gaming", "why": "So many of my friends I have made I have made because of common interests throughout the games that we have played. Although not listed on here because I have not played in a long while, a big game for my digital connections was the Ori series!"},
+    {"from": "sports-1", "to": "social-2", "why": "I get a lot of my hockey news and fan blurb from Reddit."}
+  ]
+}

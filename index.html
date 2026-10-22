@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Digital Galaxy for English 1105</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="backdrop"></div>
+
+  <canvas id="bg-stars"></canvas>
+  <div id="vignette"></div>
+
+  <canvas id="galaxy"></canvas>
+
+  <svg id="map"></svg>
+
+  <button id="home">⌂ Overview</button>
+
+  <aside id="panel" class="hidden">
+    <button id="close">×</button>
+    <h2 id="panel-title"></h2>
+    <figure id="panel-figure" hidden>
+      <img id="panel-photo" alt="">
+      <figcaption id="panel-caption"></figcaption>
+    </figure>
+    <p id="panel-text"></p>
+  </aside>
+
+  <div id="credit">Background rendered in SpaceEngine · Black hole and nebula art by hermitcrabcross.bsky.social</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="main.js"></script>
+</body>
+</html>
