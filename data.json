@@ -13,7 +13,7 @@
     {"id": "astronomy", "type": "cluster", "x": 480, "y": -90, "radius": 90, "color": "#9fc4ff", "title": "Astronomy", "text": "My online and phsyical escape into the stars."},
     {"id": "astronomy-1", "type": "star", "parent": "astronomy", "dx": -30, "dy": -20, "title": "Blogs and posts", "text": "I am a passive observer of astronomy posts online, but I always find myself watching videos, looking at pictures, or reading random Wikipedia articles relating to astronomy."},
     {"id": "astronomy-2", "type": "planet", "parent": "astronomy", "dx": 30, "dy": 30, "color": "#7cc8ff", "title": "Astronomy Club of Virginia Tech", "text": "I do not actively engage with the astronomy club, but the people in the club are always posting their images and it makes me so envious of their setups and ability to get such stunning photos."},
-    {"id": "sports", "type": "nebula", "x": 240, "y": 460, "radius": 100, "color": "#3fd6c0", "color2": "#4f7cff", "title": "Sports", "text": "The worst days of my life but the best times."},
+    {"id": "sports", "type": "nebula", "x": 240, "y": 460, "radius": 100, "color": "#3fd6c0", "color2": "#4f7cff", "title": "Sports", "text": "The worst days of my life but the best of times."},
     {"id": "sports-1", "type": "star", "parent": "sports", "dx": 0, "dy": -35, "title": "The Edmonton Oilers", "text": "Born in Edmonton, Alberta, Canada, I have always lived in a family that watched hockey, especially my dad. We always watched Edmonton Oilers games and I still follow them along and watch them for most of the games they play."},
     {"id": "sports-2", "type": "star", "parent": "sports", "dx": -35, "dy": 30, "title": "Other Teams I Follow and Why", "text": "I more passively follow a lot of teams, mostly in hockey. I know a lot about other hockey teams through my times browsing sporting commnunities and talking with friends. I also follow Virginia Tech football more due to friends that I have made here at this university."},
     {"id": "gaming", "type": "cluster", "x": 60, "y": -530, "radius": 90, "color": "#ffd27c", "title": "Gaming", "text": "Geometry Dash, Stellaris, and other games that I play"},
@@ -24,13 +24,12 @@
   "links": [
     {"from": "furry-1", "to": "social-4", "why": "This is how I first talked to most of the people I know at the club here in Virginia Tech! It is also how I talk to most of the people in the club on most days that we do not have an event or a meeting."},
     {"from": "furry-3", "to": "social-1", "why": "A lot of people whom I have met at conventions I keep up with usually on Instagram, whether it is me directly chatting with them or me viewing their content that they post."},
-    {"from": "furry-2", "to": "gaming", "why": "So many of my friends I have made I have made because of common interests throughout the games that we have played. Although not listed on here because I have not played in a long while, a big game for my digital connections was the Ori series!"},
+    {"from": "furry-2", "to": "gaming", "why": "So many of my friends I have made I have made because of common interests throughout the games that we have played. Although not listed on here because I have not played in a long while, a big game for my digital connections was the Ori series!", "photo": "photos/ori.jpg", "caption": "Game cover for Ori and the Will of the Wisps"},
     {"from": "sports-1", "to": "social-2", "why": "I get a lot of my hockey news and fan blurb from Reddit."},
     {"from": "gaming-3", "to": "social-4", "why": "This is the main way I interact with people from these separate gaming communities."},
     {"from": "astronomy-1", "to": "social-3", "why": "I usually love watching long form astronomy content on YouTube, especially those that lay out the future of our universe."},
     {"from": "sports-2", "to": "social-4", "why": "Friends on Discord are a big reason why I follow some of these teams."},
     {"from": "gaming-2", "to": "astronomy", "why": "Game takes place in space I do not think I need to elaborate much more."},
     {"from": "astronomy", "to": "furry", "why": "One of my characters I have is inpsired by the cosmos! His name is Enceladus (one of Saturn's moons), and he has the constellations of Corvus (Raven) and Apus (Bird-of-paradise) on him.", "photo": "photos/enceladus.png", "caption": "My raven/bird-of-paradise hybrid character. Drawn by @AutumnVibin on Twitter"}
-
   ]
 }
